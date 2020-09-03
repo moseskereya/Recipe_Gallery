@@ -3,13 +3,15 @@ import Title from './comps/Title';
 import File from './comps/File';
 import Images from './comps/Images';
 import Footer from './comps/Footer';
+import Header from './comps/Header'
 
 
 function App() {
   return (
-    <div className="App">
+      <div className="App">
+          <Header/>
           <Title />
-             <File />
+          <File />
           <Images />
           <Footer/>
     </div>

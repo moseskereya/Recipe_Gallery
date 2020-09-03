@@ -85,12 +85,25 @@ label:hover {
     overflow: hidden;
     transition: .5s ease-in-out;
 }
+.Header{
+        background-color: var(--secondary);
+        color: #acaa9e;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+}
 .footer{
     background-color: var(--secondary);
-    color: #b19b1e;
+    color: #acaa9e;
     display: flex;
     justify-content: space-around;
     padding:  20px 0;
+    left: 0;
+    bottom: 0;
+   width: 100%;
 }
 .footer h3{
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

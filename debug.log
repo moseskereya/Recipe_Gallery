@@ -4,3 +4,5 @@
 [0831/160521.082:ERROR:crash_report_database_win.cc(446)] failed to read records
 [0831/190944.071:ERROR:file_io.cc(90)] ReadExactly: expected 2576, observed 0
 [0831/190944.075:ERROR:crash_report_database_win.cc(447)] failed to read records
+[0903/102342.959:ERROR:file_io.cc(90)] ReadExactly: expected 2576, observed 0
+[0903/102342.959:ERROR:crash_report_database_win.cc(447)] failed to read records

@@ -4,7 +4,7 @@ import Progress from './Progress';
 function File() {
     const [file, setFile] = useState(null)
     const [error, setError] = useState(null)
-    const types = ['image/png', 'image/jpeg'];
+    const types = ['image/png', 'image/jpeg', 'video/mp4'];
     const onChangeHandler = (e) => {
         let selected = e.target.files[0]
         if (selected && types.includes(selected.type)) {
